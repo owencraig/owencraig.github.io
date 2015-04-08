@@ -204,6 +204,10 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        margin-bottom: 30px;
+        box-shadow: #ccc 5px 5px 10px;
+        border: 1px solid #ccc;
+        padding: $spacing-unit;
     }
 }
 
