@@ -3,9 +3,9 @@ layout: post
 title: Mapping but not exposing ICollections in Entity Framework
 permalink: /mapping-but-not-exposing-icollections-in-entity-framework/
 ---
-*UPDATE: As people pointed out I made a mistake when I first wrote this, the properties should be protected internal, not private internal (since that makes no sense)*
-
 Jimmy Bogard [wrote a post](http://lostechies.com/jimmybogard/2014/04/29/domain-modeling-with-entity-framework-scorecard/) a couple of days ago sizing up EF 6 for fitness in use for a fully encapsulated domain model.
+
+*UPDATE: As people pointed out I made a mistake when I first wrote this, the properties should be protected internal, not private internal (since that makes no sense)*
 
 One of the points he brought up was the lack of ability to encapsulate collections. After I wrote a comment alluding to a way that my team and I use to (kind of) work around this, his asked for more information which kicked me into gear to write this post.
 

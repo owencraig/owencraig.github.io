@@ -1,0 +1,8 @@
+blockquote{
+	cite{
+		display:block;
+		&:before{
+			content: ' -- ';
+		}
+	}
+}

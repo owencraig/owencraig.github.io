@@ -1,5 +1,6 @@
 # Site settings
-title: Your awesome title
+title: OwenCraig.com
+subtitle: Development at the speed of something something
 email: owen@owencraig.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -12,3 +13,9 @@ github_username:  owencraig
 
 # Build settings
 markdown: kramdown
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
