@@ -1,6 +1,7 @@
 # Site settings
-title: OwenCraig.com
+title: Owen Craig
 subtitle: Development at the speed of something something
+site: owencraig.com
 email: owen@owencraig.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
