@@ -7,7 +7,7 @@
       <div class="trigger">
         {% for targetPage in site.pages %}
           {% if targetPage.title %}
-          {% if page.title != targetPage.title %}<a class="page-link" href="{{ targetPage.url | prepend: site.baseurl }}">{% endif %}{{ targetPage.title }}{% if page.title != targetPage.title %}</a>{% endif %}
+          {% if page.title != targetPage.title %}<a class="page-link" href="{{ targetPage.url | prepend: site.baseurl }}">{% else %}<span class="current page-link">{% endif %}{{ targetPage.title }}{% if page.title != targetPage.title %}</a>{% else %}</span>{% endif %}
           {% endif %}
         {% endfor %}
       </div>
