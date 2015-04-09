@@ -2,6 +2,7 @@
 layout: post
 title: "Unable to generate an explicit migration/Unable to update database"
 permalink: /code-first-migrations-woes/
+comments: true
 ---
 While working on a small feature for something at work today I needed to add a field in to one of our domain entities. It really was a tiny change:
 {% highlight csharp %}

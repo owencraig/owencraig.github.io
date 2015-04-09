@@ -5,11 +5,24 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <div class="meta">
+		<span class="date">{% include post/date.html %}{{ time }}</span>
+		<span class="tags">{% include post/categories.html %}</span>
+		{% if site.disqus_short_name and site.disqus_show_comment_count == true %}
+			{% include post/comments_link.html %}
+		{% endif %}
+		<span class="edit">{% include post/edit.html %}</span>
+	</div>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
-
+  {% if site.disqus_short_name and page.comments != false %}
+  <section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread"></div>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  </section>
+  {% endif %}
 </div>

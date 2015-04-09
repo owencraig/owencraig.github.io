@@ -2,6 +2,7 @@
 layout: post
 title: Mapping but not exposing ICollections in Entity Framework
 permalink: /mapping-but-not-exposing-icollections-in-entity-framework/
+comments: true
 ---
 Jimmy Bogard [wrote a post](http://lostechies.com/jimmybogard/2014/04/29/domain-modeling-with-entity-framework-scorecard/) a couple of days ago sizing up EF 6 for fitness in use for a fully encapsulated domain model.
 

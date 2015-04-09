@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Front end tooling for the .Net developer"
+comments: true
 ---
 Yet another way that where I work ([Rightpoint](http://www.rightpoint.com)) is awesome is that there's an ingrained culture of sharing what we know within and without. As Part of that we're encouraged to put posts about things that we think might be useful on the company blog. Today I [did just that](http://community.rightpoint.com/blogs/viewpoint/archive/2015/04/06/front-end-tooling-for-the-net-developer.aspx).
 

@@ -2,6 +2,7 @@
 layout: post
 title: "CS0135: 'Model' conflicts with the declaration 'System.Web.Mvc.WebViewPage<TModel>.Model'"
 permalink: /cs0135-model-conflicts-with-the-declaration-system-web-mvc-webviewpagetmodel-model/
+comments: true
 ---
 After adding a declaration to pipe in some text from our model in a view in one of our MVC apps:
 {% highlight csharp %}

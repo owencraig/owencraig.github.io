@@ -12,8 +12,15 @@ url: "http://owencraig.com" # the base hostname & protocol for your site
 twitter_username: owencraig
 github_username:  owencraig
 
+# Github repositories
+github_repo_url: https://github.com/owencraig/owencraig.github.io/
+
 # Build settings
 markdown: kramdown
+
+# Disqus Comments
+disqus_short_name: owencraigcom
+disqus_show_comment_count: true
 
 gems:
 - jekyll-mentions

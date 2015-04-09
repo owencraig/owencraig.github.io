@@ -2,6 +2,7 @@
 layout: post
 title: Git bash aliases
 permalink: /git-bash-aliases/
+comments: true
 ---
 I like living in git bash on windows, however I also sometimes really need to jump into visual studio or sublime, so below are the two commands I run in git bash to add the shortcuts into bash.
 
