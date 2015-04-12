@@ -23,7 +23,7 @@ markdown: kramdown
 disqus_short_name: owencraigcom
 disqus_show_comment_count: true
 
-permalinks: /:year/:month/:title
+permalinks: /:title/
 
 gems:
 - jekyll-mentions
