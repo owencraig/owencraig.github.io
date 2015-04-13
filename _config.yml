@@ -12,6 +12,7 @@ url: "https://owencraig.com" # the base hostname & protocol for your site
 twitter_username: owencraig
 github_username:  owencraig
 linkedin_username: owendrcraig
+feed_url: http://feeds.feedburner.com/OwenCraig
 
 # Github repositories
 github_repo_url: https://github.com/owencraig/owencraig.github.io/
