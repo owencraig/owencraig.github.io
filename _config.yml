@@ -17,13 +17,15 @@ linkedin_username: owendrcraig
 github_repo_url: https://github.com/owencraig/owencraig.github.io/
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 # Disqus Comments
 disqus_short_name: owencraigcom
 disqus_show_comment_count: true
 
-permalinks: /:title/
+paginate: 20
+paginate_path: "page/:num"
+permalinks: /:title
 
 gems:
 - jekyll-mentions
