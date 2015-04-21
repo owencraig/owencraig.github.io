@@ -24,6 +24,9 @@ markdown: redcarpet
 disqus_short_name: owencraigcom
 disqus_show_comment_count: true
 
+# google analytics
+google_analytics_tracking_id: UA-55609937-1
+
 paginate: 20
 paginate_path: "page/:num"
 permalinks: :title/
