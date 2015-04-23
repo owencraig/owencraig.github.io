@@ -35,8 +35,9 @@ inputThing = [1,2,3,4];
 var soSpecial = inputThing[key];
 ```
 
+That's an awesome question, and the kind of thing I love answering. 
 
-That's an awesome question, and the kind of thing I love answering. Although it's something that's obvious to many people who develop using javascript, for someone whose javascript experience extends to attaching event listeners using jQuery it had them stumped.
+Although it's something that's obvious to many people who develop using javascript, for someone whose javascript experience extends to attaching event listeners using jQuery it had them stumped.
 
 The short answer of course is "they're all the same, everything you knew to be true about arrays and objects is invalid in javascript. Have a cuppa and a lie down"
 
