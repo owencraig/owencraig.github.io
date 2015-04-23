@@ -19,7 +19,6 @@ github_repo_url: https://github.com/owencraig/owencraig.github.io/
 
 # Build settings
 markdown: redcarpet
-excerpt_separator: ""
 
 # Disqus Comments
 disqus_short_name: owencraigcom
