@@ -131,6 +131,10 @@ code {
     border-radius: 3px;
 }
 
+p > code {
+    background-color: #eee;
+}
+
 code {
     padding: 1px 5px;
 }
