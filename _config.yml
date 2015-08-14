@@ -3,8 +3,7 @@ title: Owen Craig
 subtitle: Development at the speed of something something
 site: owencraig.com
 email: owen@owencraig.com
-description: > # this means to ignore newlines until "baseurl:"
-  Software development information and opinions
+description: Software development at the speed of something something
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://owencraig.com" # the base hostname & protocol for your site
 
