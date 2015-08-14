@@ -12,7 +12,13 @@
   <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
 {% if page.is_post %}
-  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
+  <meta name="twitter:description" content="{{ page.excerpt }}">
 {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.image }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/img/face.jpeg">
 {% endif %}
