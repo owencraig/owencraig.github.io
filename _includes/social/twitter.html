@@ -12,7 +12,7 @@
   <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
 {% if page.is_post %}
-  <meta name="twitter:description" content="{{ page.excerpt }}">
+  <meta name="twitter:description" content="{{ page.excerpt | xml_escape }}">
 {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
