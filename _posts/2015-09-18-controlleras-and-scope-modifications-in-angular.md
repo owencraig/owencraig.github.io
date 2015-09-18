@@ -48,7 +48,7 @@ After doing this we've got our button disabling as we expected, but we're now al
 
 ## Oooh! Magic!
 
-I'm not overly a fan of things just magically working, so maybe we can't go home straight away. The reason behind the a) buttons being disabled correctly in the first place, b) us not being able to aeccss the form in our controller originally and c) why prefixing the name made everything magically work is based on how controllerAs interacts with the scope we get passed into our views.
+I'm not overly a fan of things just magically working, so maybe we can't go home straight away. The reason behind the a) buttons being disabled correctly in the first place, b) us not being able to access the form in our controller originally and c) why prefixing the name made everything magically work is based on how controllerAs interacts with the scope we get passed into our views.
 
 ### Before controllerAs, injecting $scope
 
@@ -95,7 +95,7 @@ Doing this binds the property ``` prompt ``` and the function ``` alertName ``` 
 
 ### controllerAs, no $scope in sight
 
-With the controllerAs syntax, our controller and view rom above would become :
+With the controllerAs syntax, our controller and view from above would become :
 
 ``` js
     angular.module('someApp').controller('controllerAsController', ['$window', function($window){
@@ -124,7 +124,7 @@ What this looks like we're doing is creating a new object and passing that in as
 
 * Angular creates a new scope object that inherits from its parent scope
 * Our controller is called as a constructor function, binding anything required onto itself
-* The object returned by instatiating the controller gets bound onto the scope on the vm parameter (N.B. The parameter name here is driven by what we put in the controller as)
+* The object returned by instantiating the controller gets bound onto the scope on the vm parameter (N.B. The parameter name here is driven by what we put in the controller as)
 * The scope object is passed to the view for rendering
 
 So although it looks like we're dealing only with our own object, we're adding on to the scope:
