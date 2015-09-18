@@ -4,7 +4,7 @@ title: "controllerAs and scope modifications in AngularJs"
 comments: true
 ---
 
-I was having a conversation with a client recently about how to get dirty checking for a form in angular. this then turned into a conversation about binding from views and how it's affected by controllerAs.
+I was having a conversation with a client recently about how to get dirty checking for a form in angular. This then turned into a conversation about binding from views and how it's affected by controllerAs.
 
 ## The issue
 
@@ -44,7 +44,7 @@ The issue was that ``` vm.theFormInQuestion ``` was undefined, so trying to call
     <!-- form inputs -->
 </form>
 ```
-After doing this we've got our button disabling as we expected, but we're now also able to reference the form from within our controller, excellent! Job done was can all go home.
+After doing this we've got our button disabling as we expected, but we're now also able to reference the form from within our controller, excellent! Job done we can all go home.
 
 ## Oooh! Magic!
 
