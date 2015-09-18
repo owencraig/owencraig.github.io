@@ -4,9 +4,11 @@ title: "controllerAs and scope modifications in AngularJs"
 comments: true
 ---
 
+I was having a conversation with a client recently about how to get dirty checking for a form in angular. this then turned into a conversation about binding from views and how it's affected by controllerAs.
+
 ## The issue
 
-I was having a conversation with a client recently about how to get dirty checking for a form in angular. Due to the way that [ng-form](https://docs.angularjs.org/api/ng/directive/ngForm) works, we're able to check on the form for ``` form.$dirty ``` and ``` form.$invalid ```. After getting it set up they were able to control the state of some controls (a save button) like so:
+Due to the way that [ng-form](https://docs.angularjs.org/api/ng/directive/ngForm) works, we're able to check on the form for ``` form.$dirty ``` and ``` form.$invalid ```. After getting it set up they were able to control the state of some controls (a save button) like so:
 
 ``` html
 <form name="theFormInQuestion">
