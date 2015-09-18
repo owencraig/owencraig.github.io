@@ -133,5 +133,3 @@ Type t = inputThing.getType();
 PropertyInfo pi = t.GetPropertyInfo(key); // where key is "specialProperty"
 Decimal moneyValue = pi.getValue(inputLocation);
 {% endhighlight %}
-
-Hopefully that clears it up a bit. If not, I'm more than happy to jump on a screen share and walk through it (and explain prototypical inheritance which does your head in coming from a real language like C#) or try and find something that explains it better than I do
